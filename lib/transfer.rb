@@ -29,6 +29,6 @@ def execute_transaction
       @sender.balance += @amount
       @status = "reversed"
     end
-    
+  end  
 
 end
