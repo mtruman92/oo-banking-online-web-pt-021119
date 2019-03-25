@@ -30,6 +30,5 @@ def execute_transaction
       @status = "reversed"
     end
     
-end
 
 end
