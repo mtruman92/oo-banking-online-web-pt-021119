@@ -18,7 +18,6 @@ def valid?
 end 
 
 def execute_transaction
-  if @sender.balance
 end
 
 end
