@@ -23,7 +23,7 @@ def execute_transaction
     return "Transaction rejected. Please check your account balance."
   end
   
-  def reverse_transaction
+  def reverse_transfer
     if @status == "complete"
       @receiver.balance -= @amount
       @sender.balance += @amount
